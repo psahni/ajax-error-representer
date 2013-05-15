@@ -12,6 +12,15 @@ Just copy the javascripts, stylesheets and copy them inside yours application's 
 
 
 ## Usage
-To apply js on the ajax form easy. The plugin takes some assumptions. Later on i will update it to make it more flexible.
+To apply this js on the ajax form easy. The plugin takes some assumptions. Later on i will update it to make it more flexible.
+
 Suppose you are creating messages, so here is an assumption that the 'entity_type' of the form is 'message' and ids of the fields 
-in the form should be prepended with 'message', the entity type. If you are using Rails, it happens automatically.
+in the form should be prepended with 'message', the entity type. 
+
+If you are using Rails, this happens automatically.
+
+Assuming the id of the form is 'new_message'. So, below your form you write
+
+```javascript
+var teacher_form = new AjaxErrorRepresenter('message', {form_id: "new_meesage"});
+```
