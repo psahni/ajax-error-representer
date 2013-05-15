@@ -17,6 +17,9 @@ To apply this js on the ajax form easy. The plugin takes some assumptions. Later
 Suppose you are creating messages, so here is an assumption that the 'entity_type' of the form is 'message' and ids of the fields 
 in the form should be prepended with 'message', the entity type. 
 
+For example, if you have a text field 'subject', then id of the text field should be 'message_subject'
+if you have a text field 'body', it id of the text field should be 'message_body'
+
 If you are using Rails, this happens automatically.
 
 Assuming the id of the form is 'new_message'. So, below your form you write
