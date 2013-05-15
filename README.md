@@ -29,3 +29,8 @@ For example:
 ```console
 {subject: "can't be blank", body: "can't be blank"}
 ```
+
+## Additional Information
+
+If you face any difficulty or confusion regarding using this plugin or you want to have some customization, i request you to put up an issue
+or mail me at prashantsahni5@gmail.com. Thanks
