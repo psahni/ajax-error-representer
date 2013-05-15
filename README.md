@@ -10,7 +10,6 @@ Now if you want to show those json errors inline, then this plugin can help you 
 
 Just copy the javascripts, stylesheets and copy them inside yours application's respective folders and include them in your template.
 
-
 ## Usage
 To apply this js on the ajax form easy. The plugin takes some assumptions. Later on i will update it to make it more flexible.
 
@@ -30,4 +29,7 @@ var message_form = new AjaxErrorRepresenter('message', {form_id: "new_meesage"})
 
 From the server side you just return errors in json hash with name of fields/attribute as key and error as a value.
 
-For example: {subject: "can't be blank", body: "can't be blank"}
+For example: 
+```console
+{subject: "can't be blank", body: "can't be blank"}
+```
